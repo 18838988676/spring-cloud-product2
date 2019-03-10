@@ -1,4 +1,4 @@
-package cn.com.group.pojo;
+package cn.com.pojo;
 
 import java.io.Serializable;
 
@@ -38,6 +38,10 @@ public class UserPo implements Serializable{
 	}
 	public static long getSerialversionuid() {
 		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "UserPo [id=" + id + ", UserName=" + UserName + ", level=" + level + ", note=" + note + "]";
 	}
 	
 	
