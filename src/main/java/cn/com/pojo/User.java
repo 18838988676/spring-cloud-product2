@@ -2,7 +2,7 @@ package cn.com.pojo;
 
 import java.io.Serializable;
 
-public class UserPo implements Serializable{
+public class User implements Serializable{
 
 	/**
 	 * 
