@@ -20,6 +20,13 @@
 		<spring-cloud.version>Greenwich.SR1</spring-cloud.version>
 	</properties>
 	<dependencies>
+	<!-- 添加feign spring-cloud  start -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<!-- 添加feign  spring-cloud end -->
+	
 		<!-- 添加日志start -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
